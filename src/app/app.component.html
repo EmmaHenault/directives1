@@ -1,0 +1,3 @@
+<button>View</button>
+<button [ngStyle]="{backgroundColor:isAdmin ? 'red' : 'yellow'}" *ngIf="isAdmin">Edit</button>
+<button (click)="toggleAdmin()"> Admin </button>
